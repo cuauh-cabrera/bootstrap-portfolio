@@ -39,7 +39,7 @@ ol a {
     background-image: url(./assets/Header-llustration-desktop.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 83vw;
     background-attachment: fixed;
 }
 
@@ -62,3 +62,15 @@ ol a {
     line-height: 1.55em;
 }
 
+/* Projects section */
+.projects__title {
+    color: rgba(23, 43, 77, 1);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.card-title {
+    color: rgba(23, 43, 77, 1);
+    font-style: normal;
+    font-weight: 600;
+}
