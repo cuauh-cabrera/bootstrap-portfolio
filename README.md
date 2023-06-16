@@ -85,7 +85,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:cuauh-cabrera/my-portfolio.git
+  git clone git@github.com:cuauh-cabrera https://github.com/cuauh-cabrera/bootstrap-portfolio.git
 ```
 
 ### Install
