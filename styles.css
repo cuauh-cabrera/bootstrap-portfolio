@@ -39,7 +39,7 @@ ol a {
     background-image: url(./assets/Header-llustration-desktop.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 83vw;
+    background-size: 65rem;
     background-attachment: fixed;
 }
 
@@ -62,6 +62,10 @@ ol a {
     line-height: 1.55em;
 }
 
+.social-icons {
+    background-color: rgba(255, 255, 255, 0);
+}
+
 /* Projects section */
 .projects__title {
     color: rgba(23, 43, 77, 1);
@@ -74,3 +78,30 @@ ol a {
     font-style: normal;
     font-weight: 600;
 }
+
+/* About me section */
+.about {
+    height: max-content;
+}
+
+.about__headline-container {
+    background-color: rgb(255,255,255,1);
+    background-image: url(./assets/about_bkg_desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.about__title {
+    color: rgba(23, 43, 77, 1);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.about__headline {
+    color: rgba(66, 82, 110, 1);
+    font-style: normal;
+    font-weight: 400;
+}
+
