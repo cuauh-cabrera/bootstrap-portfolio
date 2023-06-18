@@ -34,8 +34,8 @@
             <p class="h1 text-center text-wrap text-break mt-5">Hey there. I'm Cuau.</p>
             <h1 class="text-center text-wrap text-break">I'm a software developer.</h1>
         </div>
-        <div class="container-md w-50 mt-3">
-            <p class="headline-text h6 text-center text-wrap text-break w-auto"> I can help you build a product ,
+        <div class="container w-50 mt-3">
+            <p class="headline-text h6 text-center text-wrap text-break"> I can help you build a product ,
                 feature or
                 website Look through some of my
                 work
@@ -197,7 +197,8 @@
                     <img src="./assets/icon-languages.svg" class="card-img-top w-75 mt-3" alt="...">
                     <div class="card-body d-flex flex-column align-items-center">
                         <h3 class="card-title container-sm h4 text-nowrap text-center text-light">Languages</h3>
-                        <div class="btn-group-sm btn-group-md flex-wrap d-flex flex-row justify-content-center gap-1 w-100 mt-5 mb-5">
+                        <div
+                            class="btn-group-sm btn-group-md flex-wrap d-flex flex-row justify-content-center gap-1 w-100 mt-5 mb-5">
                             <button class="btn lh-1 fs-8 fw-light btn-light">JavaScript</button>
                             <button class="btn btn-light">Ruby</button>
                             <button class="btn btn-light">HTML</button>
@@ -227,7 +228,8 @@
                     <img src="./assets/icon-skills.svg" class="card-img-top w-75 mt-3" alt="...">
                     <div class="card-body d-flex flex-column align-items-center">
                         <h3 class="card-title text-wrap h4 text-center text-light w-75">Skills</h3>
-                        <div class="btn-group-sm d-flex flex-row flex-wrap justify-content-center gap-1 w-100 mt-5 mb-5">
+                        <div
+                            class="btn-group-sm d-flex flex-row flex-wrap justify-content-center gap-1 w-100 mt-5 mb-5">
                             <button class="btn btn-light">Database Management</button>
                             <button class="btn btn-light">Version Control</button>
                             <button class="btn btn-light">CLI</button>
@@ -239,21 +241,60 @@
             </div>
         </div>
     </section>
+    <!--Contact section-->
+    <section class="contact container-fluid ">
+        <div class="container d-flex flex-md-row flex-column flex-lg-nowrap align-items-center mt-5 w-100">
+            <div class="container-lg w-75 ">
+                <h3 class="contact__text text-center text-md-start">I'm always interested in hearing about new projects,
+                    so if you'd like to chat
+                    please get in touch.</h3>
+            </div>
+            <div class="container-lg w-100 mt-3">
+                <form class="contact__form row g-2 w-100">
+                    <div class="col-md-6">
+                        <label for="fname" class="form-label invisible">First Name</label>
+                        <input type="text" class="form-control" id="fname" maxlength="30" placeholder="First name"
+                            required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lname" class="form-label invisible">Last Name</label>
+                        <input type="text" class="form-control" id="lname" maxlength="30" placeholder="Last name"
+                            required>
+                    </div>
+                    <div class="col-12">
+                        <label for="email" class="form-label invisible">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email address" required>
+                    </div>
+                    <div class="col-12">
+                        <label for="message" class="form-label invisible">Message</label>
+                        <textarea name="" id="message" cols="30" rows="5" class="form-control"
+                            placeholder="Hey I’d like to connect to..." maxlength="300" required></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-success mt-3">Sign in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </section>
+    <!--Footer-->
+    <footer class="container-fluid border-top mt-3">
+        <div class="container d-flex flex-row justify-content-around">
+            <ul class="social-icons list-group d-flex flex-row justify-content-around w-25">
+                <li class="list-group-item border-0"><a href="https://github.com/cuauh-cabrera"><img
+                            src="./assets/github.png" alt="" class=""></a></li>
+                <li class="list-group-item border-0"><a href="https://linkedin.com/in/cuaucabrera"><img
+                            src="./assets/Linkedin icon.png" alt="" class=""></a></li>
+                <li class="list-group-item border-0"><a href="https://www.angellist.com"><img
+                            src="./assets/angellist.png" alt="" class=""></a></li>
+                <li class="list-group-item border-0"><a href="https://twitter.com/cuau_cabrera"><img
+                            src="./assets/twitter.png" alt="" class=""></a></li>
+                <li class="list-group-item border-0"><a href="https://medium.com"><img src="./assets/medium.png" alt=""
+                            class=""></a></li>
+            </ul>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>

@@ -27,15 +27,15 @@ ol a {
 }
 
 /* Navbar */
-.headline-container nav  {
-    background-color:rgba(255, 255, 255, 1);
+.headline-container nav {
+    background-color: rgba(255, 255, 255, 1);
 }
 
 
 /* Headline */
 .headline-container {
     height: 95vh;
-    background-color: rgb(255,255,255,1);
+    background-color: rgb(255, 255, 255, 1);
     background-image: url(./assets/Header-llustration-desktop.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -85,7 +85,7 @@ ol a {
 }
 
 .about__headline-container {
-    background-color: rgb(255,255,255,1);
+    background-color: rgb(255, 255, 255, 1);
     background-image: url(./assets/about_bkg_desktop.png);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -105,3 +105,24 @@ ol a {
     font-weight: 400;
 }
 
+/* Contact section */
+.contact {
+    height: 100vh;
+    background-image: url(./assets/contact_bkg_3_desktop_grouped.png);
+    background-repeat: no-repeat;
+    background-size: 109vw;
+    background-position: bottom 60px left -105px;
+    background-attachment: scroll;
+}
+
+.contact__text {
+    color: rgba(23, 43, 77, 1);
+    font-style: normal;
+    font-weight: 700;
+}
+
+.contact__form input {
+    color: rgba(107, 119, 140, 1);
+    font-style: italic;
+    font-weight: 400;
+}
