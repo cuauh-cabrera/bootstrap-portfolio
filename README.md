@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Not deployed... yet]
+- https://cuauh-cabrera.github.io/bootstrap-portfolio/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,7 +85,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:cuauh-cabrera https://github.com/cuauh-cabrera/bootstrap-portfolio.git
+  git clone git@github.com:cuauh-cabrera/bootstrap-portfolio.git
 ```
 
 ### Install
